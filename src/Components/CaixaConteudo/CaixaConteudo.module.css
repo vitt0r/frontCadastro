@@ -1,0 +1,28 @@
+.conteudo {
+    position: absolute;
+    top: 10vw;
+    left: 18vw;
+    width: 78vw;
+    height: 75vh;
+}
+
+
+ @media (max-width: 1150px) {
+    .conteudo {
+        margin-top: 1rem;
+        margin-left: 1rem;
+        top: 100px;
+        -left: 25vw;
+        width: 75vw;
+    }
+ }
+
+ @media (max-width: 800px) {
+    .conteudo {
+        top: 100px;
+        left: 10vw;
+        width: 80vw;
+        margin-top: 1rem;
+        margin: 1rem auto;
+    }
+ }

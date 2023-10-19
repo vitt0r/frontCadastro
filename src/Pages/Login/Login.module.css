@@ -1,0 +1,87 @@
+.body {
+    background-color: var(--cor-destaque);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 3rem;
+}
+
+.containerLogin {
+    background-color: var(--cor-fundo);
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 1.5rem;
+    border-radius: 20px;
+}
+
+.containerLogin > img {
+    width: 50%;
+}
+
+/*----------------------------------*/
+.form {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+    width: 100%;
+}
+
+.form .grupo {
+    display: flex;
+    flex-direction: column;
+    row-gap: .5rem;
+}
+
+.grupo .label {
+    font-size: 1rem;
+}
+
+.grupo .input {
+    border: none;
+    padding-block: .8rem;
+    width: 100%;
+    text-indent: .5rem;
+    border-radius: 5px;
+}
+
+/*----------------------------------------*/
+.botaoLogin {
+    width: 100%;
+    padding-block: .8rem;
+    background-color: var(--cor-destaque);
+    border: none;
+    border-radius: 5px;
+    color: var(--cor-mais-clara);
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+
+.botaoLogin:hover {
+    transform: scale(1.025);
+    transition: .3s;
+}
+
+/*------------------------------------------*/
+
+.linkCadastrar {
+    color: white;
+    font-size: 1.2rem;
+}
+
+.linkCadastrar:hover {
+    text-decoration: underline;
+}
+
+/*-----------------------------------------*/
+
+.erro {
+    background-color: var(--fundo-erro);
+    color: var(--texto-erro);
+    padding-block: .5rem;
+    border-radius: 5px;
+    width: 100%;
+    text-align: center;
+}

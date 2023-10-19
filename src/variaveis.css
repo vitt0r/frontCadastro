@@ -1,0 +1,8 @@
+:root {
+    --cor-mais-clara: white;
+    --cor-mais-escura: black;
+    --cor-destaque: #1E81CF;
+    --cor-fundo: #DFDFDF;
+    --fundo-erro: rgb(255, 196, 196);
+    --texto-erro: rgb(168, 0, 0);
+}
